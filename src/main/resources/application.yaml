@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/cloudvendorschem?useSSL=false
+    username: root
+    password: pass
+
+
+#JPA Settings
+  jpa.hibernate.ddl_auto: update
